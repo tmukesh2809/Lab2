@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Tejasvin's Journal</title>
+        <meta name="author" content="Tejasvin">
+        <meta name="description" content="Journal Entry">
+        <link rel="icon" href="favicon.ico">
+    </head>
+        <body>
+            <header>
+                <h1>Tejasvin's Journal</h1>
+                <img
+                 src = "Tejasvin.jpeg"
+                 width = "250"
+                /> <br>
+                <a href="https://www.linkedin.com/in/tejasvin28/">LinkedIn</a>
+                <br>
+                 <br>
+                <div>Shortcut to Daywise Entries</div>
+                <nav>
+                    
+                        <a href="#Friday">Friday</a> |
+                        <a href="#Saturday">Saturday</a> |
+                        <a href="#Sunday">Sunday</a> 
+                    
+                </nav>
+            </header>
+            <main>
+                
+                <div id="Friday">
+                <h2>Friday</h2>
+                <h4>03/04/2021</h4>
+                <p>
+                    Friday was full of up and downs for me. I had been feeling sick for the last couple of 
+                    days and therefore I got myself tested on Thursday. The day started off with me getting my report which said that
+                    I tested positive for <span style="color:red">Covid 19</span>.
+                    <details>
+                    <summary>Symptoms I have</summary>
+                    I am showing the following symptoms as of Friday-
+                    <ol>
+                        <li>Fever above <strong>100.4 F</strong></li>
+                        <li>Dry cough</li>
+                        <li>Fatigue and body ache</li>
+                    </ol>
+                    </details>
+                    <br>
+                    I have isolated myself from my family and I have been monitoring my health regularly. <br/>
+                    <br/>
+                    Following are the things that I did on order to keep myself busy throughout the day- 
+                    <ul>
+                        <li> <p>
+                            Music: I listened to the following song on repeat: <br/>
+                            <audio controls>
+                                <source src="Suckstobeyou.mp3" type="audio/mpeg">
+                              </audio>
+                        </p></li>
+                        <li>
+                            Here is a video of a cat that made my day <br/>
+                            <video width="320" height="240" controls>
+                                <source src="FunnyVideo.mp4" type="video/ogg">
+                              </video>
+                        </li>
+                    </ul>
+                    
+                </p>
+            </div>
+                <hr>
+                <div id="Saturday">
+                <h2>Saturday</h2>
+                <h4>03/04/2021</h4>
+                <p>
+                    Today, I am feeling much better than the previous day. The body temperature is comparitively <b>low</b>
+                    and my throat is acting better. 
+                    <h3>Activities of the Day-</h3>
+                    <ul>
+                        <li>watching movies</li>
+                        <li>applying for internships</li>
+                        <li>watching Family Guy</li>
+                    </ul>
+                    <section>
+                        <h4>Thoughts I had during the day-</h4>
+                        <ul>
+                            <li>Getting well soon and flying back to the States</li>
+                            <li>Meeting my friends again</li>
+                            <li>Watching the sunset from gliderport</li>
+                        </ul>
+                    </section>
+                </p>
+            </div>
+                <hr>
+                <div id="Sunday">
+                <h2>Sunday</h2>
+                <h4>04/04/2021</h4>
+                <p>
+                    Being isolated is getting to me. I must say I am craving <em>human interaction</em> right now.
+                    I hope I get well soon so that I can <i>meet people again</i>. 
+                </p>
+                </div>
+                <hr>
+            </main>
+            <footer>
+                <form>
+                    <fieldset>
+                    <h3>Submit an entry:</h3>
+                    <label for="dayweek">Day of the week:</label><br>
+                    <input type="text" id="dayweek" name="dayweek"> <br>
+                    <label for="datee">Date:</label><br>
+                    <input type="date" id="datee" name="datee"> <br>
+                    <label for="GdDay">Had a Good Day?</label><br>
+                    <input type="checkbox" id="GdDay" name="GdDay"> <br>
+                    <label for="entrytype">How are you feeling?:</label><br>
+                    <input list ="entrytyp" name="entrytype" id="entrytype">
+                    <datalist id="entrytyp">
+                        <option value="Happy">
+                        <option value="Sad">
+                        <option value="Nuetral">
+                    </datalist> <br>
+                    <label for="Motivated">Do you feel Motivated Today?</label><br>
+                    <input type="radio" id="motivated" name="Motivated" value="yes">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="motivated" name="Motivated" value="no">
+                    <label for="yes">No</label><br>
+                    <label for="Entry">Entry:</label><br>
+                    <textarea name="Entry" id="Entry" cols="30" rows="10">Write Here...
+                    </textarea> <br>
+                    <label for="rate">How would you rate your Journal entry:</label>
+                    <select name="rate" id="rate">
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="fair">Fair</option>
+                        <option value="bad">Bad</option>
+                    </select> <br>
+                    <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </footer>
+        </body>
+</html>
