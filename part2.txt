@@ -8,6 +8,7 @@ Passcode for question 6: ThisIsJS
 Passcode for questoin 7: YouFoundMe
 Passcode for question 8: coolcoolcool
 Passcode for question 9: 2020sucked
-Passcode for question 10: 
+Passcode for question 10: listenToTheBlackKeys
 Passcode for queation 11: a11yComesFirst
 Passcode for question 12: iLoveWebDev
+Passcode for question 13: 404
